@@ -137,7 +137,7 @@ The CNN consists of the following stages:
 | Detection Accuracy | Verified via RTL simulation |
 
 <p align="center">
-  <img src="images/maxpooling.png" width="700">
+  <img src="images/waveform.png" width="700">
 </p>
 <p align="center">
   <b>Fig. 8. Timing Diagram of CNN Top Module</b>
