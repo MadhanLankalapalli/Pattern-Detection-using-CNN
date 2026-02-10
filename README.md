@@ -6,9 +6,8 @@ This project presents a **hardware-efficient Convolutional Neural Network (CNN)*
 The proposed CNN architecture employs **Laplacian-based edge enhancement**, **pattern-matching convolution**, **max pooling**, and **threshold-based detection**, optimized using pipelining and parallelism. RTL simulations validate functional correctness, and timing analysis confirms reliable operation at **155.67 MHz**, making the design suitable for **FPGA-based edge AI applications**.
 
 ## Keywords
-CNN, Verilog HDL, RTL Design, FPGA, Object Recognition, Hardware Accelerator, Edge AI
+CNN, Verilog HDL, RTL Design, FPGA, Object Recognition, Hardware Accelerator.
 
----
 
 ## Introduction
 Object recognition plays a critical role in applications such as **embedded vision, robotics, surveillance, and medical imaging**. While software CNNs offer high accuracy, they often suffer from high latency and power consumption.
@@ -31,7 +30,8 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 
 ## CNN Processing Pipeline
 
-![CNN Processing Flow](images/cnn_flow.png)  
+![CNN Processing Flow](<img width="651" height="226" alt="image" src="https://github.com/user-attachments/assets/e8f18676-65b1-4576-aa79-2faddf763566" />
+)  
 **Fig. 1. CNN Processing Flow Diagram**
 
 The CNN consists of the following stages:
