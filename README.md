@@ -84,8 +84,7 @@ The CNN consists of the following stages:
 - One-cycle pooling per window  
 
 <p align="center">
-  <img src="<img width="651" height="226" alt="image" src="https://github.com/user-attachments/assets/e62dc429-e0fb-4cfe-b1f7-93667812718b" />
-">
+  <img src="images/maxpooling" width="700">
 </p>
 <p align="center">
   <b>Fig. 4. Max Pooling RTL Architecture</b>
