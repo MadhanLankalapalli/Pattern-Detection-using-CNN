@@ -55,11 +55,14 @@ The CNN consists of the following stages:
 - Output Sizes:
   - Image: 126 × 126  
   - Pattern: 6 × 6  
+  
+<p align="center">
+  <img src="images/cov_stage1.png" width="700">
+</p>
 
-![Laplacian Convolution RTL](images/laplacian_rtl.png)  
-**Fig. 2. RTL Architecture of Laplacian Convolution**
-
----
+<p align="center">
+  <b>Fig. 2. RTL Architecture of Laplacian Convolution</b>
+</p
 
 ### 4.2 Pattern Matching Convolution (Stage 2)
 - 6×6 convolution between processed image and pattern  
@@ -67,8 +70,13 @@ The CNN consists of the following stages:
 - Fully pipelined for high throughput  
 - Output feature map size: **121 × 121**
 
-![Pattern Matching RTL](images/pattern_conv_rtl.png)  
-**Fig. 3. Pattern Matching Convolution Architecture**
+<p align="center">
+  <img src="images/cov_stage2.png" width="700">
+</p>
+
+<p align="center">
+  <b>Fig. 3. Pattern Matching Convolution Architecture</b>
+</p
 
 ### 4.3 Max Pooling Layer
 - 2×2 max pooling operation  
