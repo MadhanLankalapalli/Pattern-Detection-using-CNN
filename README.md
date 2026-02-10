@@ -31,11 +31,13 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 ## CNN Processing Pipeline
 
 <p align="center">
-  <img src=""C:\Users\madha\OneDrive\Pictures\Picture1.jpg"">
+  <img src="images/CNN_flow.png" width="700">
 </p>
+
 <p align="center">
   <b>Fig. 1. CNN Processing Flow Diagram</b>
 </p>
+
 
 The CNN consists of the following stages:
 1. Laplacian Convolution (Edge Enhancement)  
