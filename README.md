@@ -27,6 +27,22 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 ### Output
 - Number of detected pattern matches in the input image
 
+<p align="center">
+  <img src="images/input_image.png" width="700">
+</p>
+
+<p align="center">
+  <b>Fig. 1. Input Image</b>
+</p>
+
+
+<p align="center">
+  <img src="images/testpattern.png" width="700">
+</p>
+
+<p align="center">
+  <b>Fig. 2. Test Image</b>
+</p>
 
 ## CNN Processing Pipeline
 
@@ -35,7 +51,7 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 </p>
 
 <p align="center">
-  <b>Fig. 1. CNN Processing Flow Diagram</b>
+  <b>Fig. 3. CNN Processing Flow Diagram</b>
 </p>
 
 
@@ -61,7 +77,7 @@ The CNN consists of the following stages:
 </p>
 
 <p align="center">
-  <b>Fig. 2. RTL Architecture of Laplacian Convolution</b>
+  <b>Fig. 4. RTL Architecture of Laplacian Convolution</b>
 </p
 
 ### 4.2 Pattern Matching Convolution (Stage 2)
@@ -75,7 +91,7 @@ The CNN consists of the following stages:
 </p>
 
 <p align="center">
-  <b>Fig. 3. Pattern Matching Convolution Architecture</b>
+  <b>Fig. 5. Pattern Matching Convolution Architecture</b>
 </p
 
 ### 4.3 Max Pooling Layer
@@ -84,10 +100,10 @@ The CNN consists of the following stages:
 - One-cycle pooling per window  
 
 <p align="center">
-  <img src="images/maxpooling" width="700">
+  <img src="images/maxpooling.png" width="700">
 </p>
 <p align="center">
-  <b>Fig. 4. Max Pooling RTL Architecture</b>
+  <b>Fig. 6. Max Pooling RTL Architecture</b>
 </p>
 
 ### 4.4 Thresholding and Detection
@@ -95,10 +111,6 @@ The CNN consists of the following stages:
 - Simple comparator-based detection  
 - Counts valid detections across pooled feature map  
 
-![Threshold Logic](images/threshold_logic.png)  
-**Fig. 5. Thresholding and Detection Logic**
-
----
 
 ## Hardware Implementation
 
@@ -127,10 +139,12 @@ The CNN consists of the following stages:
 | Pooling Output Size | 60 × 60 |
 | Detection Accuracy | Verified via RTL simulation |
 
-![Timing Diagram](images/timing_diagram.png)  
-**Fig. 7. Timing Diagram of CNN Top Module**
-
----
+<p align="center">
+  <img src="images/maxpooling.png" width="700">
+</p>
+<p align="center">
+  <b>Fig. 8. Timing Diagram of CNN Top Module</b>
+</p>
 
 ##  Applications
 - FPGA-based vision accelerators  
