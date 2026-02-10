@@ -21,7 +21,7 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 
 ### Input Parameters
 - **Input Image Size:** 128 × 128 (Grayscale)
-- **Test Pattern Size:** 8 × 8
+- **Test Pattern Size:** 8 × 8 
 - **Pixel Precision:** 8-bit
 
 ### Output
