@@ -84,7 +84,7 @@ The CNN consists of the following stages:
 - Output feature map size: **121 × 121**
 
 <p align="center">
-  <img src="images/cov_stage2.png" width="700">
+  <img src="images/cov_stage2.png" width="500">
 </p>
 
 <p align="center">
@@ -97,7 +97,7 @@ The CNN consists of the following stages:
 - One-cycle pooling per window  
 
 <p align="center">
-  <img src="images/maxpooling.png" width="700">
+  <img src="images/maxpooling.png" width="300">
 </p>
 <p align="center">
   <b>Fig. 6. Max Pooling RTL Architecture</b>
@@ -122,11 +122,6 @@ The CNN consists of the following stages:
 - **Simulation & Synthesis:** Xilinx Vivado  
 - **Verification:** RTL Simulation  
 
-![Top Level RTL](images/top_level_rtl.png)  
-**Fig. 6. Top-Level CNN RTL Block Diagram**
-
----
-
 ## Results and Performance
 
 | Parameter | Value |
@@ -140,7 +135,7 @@ The CNN consists of the following stages:
   <img src="images/waveform.png" width="700">
 </p>
 <p align="center">
-  <b>Fig. 8. Timing Diagram of CNN Top Module</b>
+  <b>Fig. 7. Timing Diagram of CNN Top Module</b>
 </p>
 
 ##  Applications
