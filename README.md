@@ -157,7 +157,7 @@ The CNN consists of the following stages:
 ## Authors
 - **Lankalapalli Madhan**  
 - Bhavanam Naga Varshitha  
-- Koramalakshmi Rupalakshmi  
+- Koram Rupalakshmi  
 
 **Supervisor:** Mr. K. Shivalal  
 Department of Electronics and Communication Engineering  
