@@ -30,7 +30,7 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 
 ## CNN Processing Pipeline
 
-![CNN Processing Flow](<img width="651" height="226" alt="image" src="https://github.com/user-attachments/assets/e8f18676-65b1-4576-aa79-2faddf763566" />
+![CNN Processing Flow](<img width="651" height="226" alt="image" src="https://github.com/user-attachments/assets/2cd63ab9-e352-4b64-82fe-856e7c4cb8c8" />
 )  
 **Fig. 1. CNN Processing Flow Diagram**
 
@@ -70,10 +70,13 @@ The CNN consists of the following stages:
 - Reduces spatial dimensions to **60 × 60**  
 - One-cycle pooling per window  
 
-![Max Pooling RTL](images/max_pooling_rtl.png)  
-**Fig. 4. Max Pooling RTL Architecture**
-
----
+<p align="center">
+  <img src="<img width="651" height="226" alt="image" src="https://github.com/user-attachments/assets/e62dc429-e0fb-4cfe-b1f7-93667812718b" />
+">
+</p>
+<p align="center">
+  <b>Fig. 4. Max Pooling RTL Architecture</b>
+</p>
 
 ### 4.4 Thresholding and Detection
 - Threshold set to **25% of pattern self-convolution value**  
