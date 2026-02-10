@@ -109,7 +109,7 @@ The CNN consists of the following stages:
 
 ---
 
-## 6️⃣ Results and Performance
+## Results and Performance
 
 | Parameter | Value |
 |---------|------|
