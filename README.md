@@ -27,22 +27,19 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 ### Output
 - Number of detected pattern matches in the input image
 
-<p align="center">
-  <img src="images/input_image.png" width="700">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="images/input_image.png" width="300"><br>
+      <b>Fig. 1. Input Image</b>
+    </td>
+    <td align="center">
+      <img src="images/testpattern.png" width="300"><br>
+      <b>Fig. 2. Test Pattern</b>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <b>Fig. 1. Input Image</b>
-</p>
-
-
-<p align="center">
-  <img src="images/testpattern.png" width="700">
-</p>
-
-<p align="center">
-  <b>Fig. 2. Test Image</b>
-</p>
 
 ## CNN Processing Pipeline
 
