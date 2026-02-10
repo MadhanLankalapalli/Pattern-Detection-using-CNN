@@ -31,7 +31,7 @@ This project focuses on designing a **lightweight, deterministic, and hardware-o
 ## CNN Processing Pipeline
 
 <p align="center">
-  <img src="img width="651" height="226" alt="image" src="https://github.com/user-attachments/assets/2cd63ab9-e352-4b64-82fe-856e7c4cb8c8">
+  <img src=""C:\Users\madha\OneDrive\Pictures\Picture1.jpg"">
 </p>
 <p align="center">
   <b>Fig. 1. CNN Processing Flow Diagram</b>
