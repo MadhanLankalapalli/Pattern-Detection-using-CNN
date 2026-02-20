@@ -1,4 +1,4 @@
-# 🔬 Pattern Detection Using CNN
+# Pattern Detection Using CNN
 
 > *A hardware-efficient Convolutional Neural Network implemented at Register Transfer Level (RTL) in Verilog HDL, enabling real-time object recognition on FPGA platforms.*
 
