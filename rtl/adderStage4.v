@@ -1,7 +1,3 @@
-/*
-	Author: Aniket Badhan
-	Description: Addition stage 4
-*/
 
 `timescale 1ns / 1ps
 
